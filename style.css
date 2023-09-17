@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #eb6274;
+
+}
+
+header li a {
+    color:  #68fc6f;
+    text-decoration: none;
+}
+
+section {
+    padding: 16px 0;
+    
+} 
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 40px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: purple;
+}
+
+.articles article p a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.articles article h3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    /*height: 400px;
+    width: 400px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 48%;
+}
+
+#Esportes {
+    background-color: rgba(0, 2555, 0, 0.1);
+}
+
+#Esportes .articles article a {
+    background-color: #1a441c;
+}
+
+#Economia {
+    background-color: rgba(243, 211, 33, 0.4);
+}
+
+#Economia .articles article a {
+    background-color: #550b14;
+}
+
+#Entretenimento {
+    background-color: rgb(194, 149, 194);
+}
+
+#Entretenimento .articles article a {
+    background-color: #8a202e;
+}
+
+#Tecnologia {
+    background-color: rgb(94, 206, 206);
+}
+
+#Tecnologia .articles article a {
+    background-color: rgb(128, 80, 17);
+}
+
+#virusimg {
+    width: 660px;
+    height: 357px;
+}
+

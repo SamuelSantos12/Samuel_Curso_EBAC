@@ -5,106 +5,131 @@
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portal de Noticias</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Meu portal de noticias.</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" title="Ir para a seção de Esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#" title="Ir para a seção de Ecomomia">Ecomomia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de noticias.</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Tecnologia" title="Ir para a seção de Tecnologia">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#Entretenimento" title="Ir para a seção de Entretenimento">Entretenimento</a>
+                    </li>
+                    <li>
+                        <a href="#Esportes" title="Ir para a seção de Esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#Economia" title="Ir para a seção de Ecomomia">Ecomomia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section >
-        <h2>Esportes</h2>
-        <article>
-            <img src="https://media.gettyimages.com/id/1331262031/pt/foto/players-of-brazil-celebrate-during-the-womens-preliminary-pool-b-volleyball-match-between.jpg?s=612x612&w=gi&k=20&c=JveaU5AFQpiiBRLIe34ejT2DoGPjnJtVm0Nt3keHI6w=" alt="Seleção brasileira vence a COPA DE VOLEI." />
-            <header>
-                <time>15/09/2023 ás 15:30hrs<time>
-            </header>
-            <h3>Seleção feminina de volei vence a copa volei brasil.</h3>
-            <p>selação venceu por "50 sets a 01" encima da seleção argentina.</p>
-            <a href="Leia a noticia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="https://media.gettyimages.com/id/1094948490/pt/foto/a-pilot-of-the-red-bull-racing-team-flies-a-plane-during-a-training-session-for-the-2019-abu.jpg?s=612x612&w=gi&k=20&c=XG4kjiWY6hFInXLNOeIOPFkrp1LwVisvIy8rRnDSMd8=" alt="proxima Red Bull Air Race sera no brasil em irati-PR ">
-            <header>
-                <time>16/09/2023 ás 15:45hrs</time>
-            </header>
-            <h3>Red Bull Air Race sera realizada em Irati-PR, Cidade com 60.000 habitantes.</h3>
-            <p>prefeitura de irati diz estar preocupada com evento na cidade.</p>
-            <a href="Leia a noticia completa">ler mais</a>
-        </article>
+    <section id="Esportes">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://media.gettyimages.com/id/1331262031/pt/foto/players-of-brazil-celebrate-during-the-womens-preliminary-pool-b-volleyball-match-between.jpg?s=612x612&w=gi&k=20&c=JveaU5AFQpiiBRLIe34ejT2DoGPjnJtVm0Nt3keHI6w=" alt="Seleção brasileira vence a COPA DE VOLEI." />
+                    <header>
+                        <time>15/09/2023 ás 15:30hrs<time>
+                    </header>
+                    <h3>Seleção feminina de volei vence a copa volei brasil.</h3>
+                    <p>selação venceu por "50 sets a 01" encima da seleção argentina.</p>
+                    <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://media.gettyimages.com/id/1094948490/pt/foto/a-pilot-of-the-red-bull-racing-team-flies-a-plane-during-a-training-session-for-the-2019-abu.jpg?s=612x612&w=gi&k=20&c=XG4kjiWY6hFInXLNOeIOPFkrp1LwVisvIy8rRnDSMd8=" alt="proxima Red Bull Air Race sera no brasil em irati-PR ">
+                    <header>
+                        <time>16/09/2023 ás 15:45hrs</time>
+                    </header>
+                    <h3>Red Bull Air Race sera realizada em Irati-PR, Cidade com 60.000 habitantes.</h3>
+                    <p>prefeitura de irati diz estar preocupada com evento na cidade.</p>
+                    <a href="Leia a noticia completa">ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="https://jpimg.com.br/uploads/2017/06/1780748564-economia-fotos-publicas-1-1024x682.jpg" width="700"  alt="quanto mais guardar, mais voçê tera.">
-            <header>
-                <time>17/09/2023 ás 16:00hrs</time>
-            </header>
-            <h3>Estudo aponta possivel relação entre guardar dinheiro e ter mais dinheiro guardado.</h3>
-            <p>Especialista diz que quanto mais você economiza, mais você tem!</p>
-            <a href="Leia a noticia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="https://imagens.usp.br/wp-content/uploads/9774_economia10022011_001.jpg" width="690px" alt="Homem enganado por tutorial no youtube">
-            <header>
-                <time>17/09/2023 ás 16:30hrs</time>
-            </header>
-            <h3>Homem de 45 anos economizou 1 real por dia por 40 anos e diz:"Nao sei nem oque fazer com os 2.400,00 reais que juntei ao longo de minha vida"</h3>
-            <p>Homem diz ter visto tutorial no youtube que o ensinou a poupar dinheiro para a aposentadoria.</p>
-            <a href="Leia a noticia completa">Ler mais</a>
-        </article>
+    <section id="Economia">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://jpimg.com.br/uploads/2017/06/1780748564-economia-fotos-publicas-1-1024x682.jpg" alt="quanto mais guardar, mais voçê tera.">
+                    <header>
+                        <time>17/09/2023 ás 16:00hrs</time>
+                    </header>
+                    <h3>Estudo aponta possivel relação entre guardar dinheiro e ter mais dinheiro guardado.</h3>
+                    <p>Especialista diz que quanto mais você economiza, mais você tem!</p>
+                    <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://imagens.usp.br/wp-content/uploads/9774_economia10022011_001.jpg" alt="Homem enganado por tutorial no youtube">
+                    <header>
+                        <time>17/09/2023 ás 16:30hrs</time>
+                    </header>
+                    <h3>Homem de 45 anos economizou 1 real por dia por 40 anos e diz:"Nao sei nem oque fazer com os 2.400,00 reais que juntei ao longo de minha vida"</h3>
+                    <p>Homem diz ter visto tutorial no youtube que o ensinou a poupar dinheiro para a aposentadoria.</p>
+                    <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Entretenimento</h2>
-        <article>
-            <img src="https://www.ufrgs.br/warp/wp-content/uploads/2020/09/blog2.jpg" alt="cinema em Irati-PR">
-            <header>
-                <time>17/09/2023 ás 16:45hrs</time>
-            </header>
-            <h3>Inalgurado novo cinema em irati-PR com capacidade para todos os habitantes ao mesmo tempo.</h3>
-            <p>Prefeito de irati diz estar preocupado com a questão.</p>
-            <a href="Leia a noticia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="https://33giga.com.br/wp-content/uploads/2020/01/3.-Club-Drive-1994.jpg " width="800px" alt="GTAV">
-            <header>
-                <time>17/09/2023 ás 17:00hrs</time>
-            </header>
-            <h3>GTAV para NOKIA 2200 é lançado</h3>
-            <p>versão do jogo já é a mais vendida entre jogadores da terceira idade.</p>
-            <a href="Leia a noticia completa">Ler mais</a>
-        </article>
+    <section id="Entretenimento">
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://www.ufrgs.br/warp/wp-content/uploads/2020/09/blog2.jpg" alt="cinema em Irati-PR">
+                    <header>
+                        <time>17/09/2023 ás 16:45hrs</time>
+                    </header>
+                    <h3>Inaugurado novo cinema em irati-PR com capacidade para todos os habitantes ao mesmo tempo.</h3>
+                    <p>Prefeito de irati diz estar preocupado com a questão.</p>
+                    <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://33giga.com.br/wp-content/uploads/2020/01/3.-Club-Drive-1994.jpg "alt="GTAV">
+                    <header>
+                        <time>17/09/2023 ás 17:00hrs</time>
+                    </header>
+                    <h3>GTAV para NOKIA 2200 é lançado</h3>
+                    <p>versão do jogo já é a mais vendida entre jogadores da terceira idade.</p>
+                    <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Tecnologia</h2>
-        <article>
-            <img src="https://img.r7.com/images/robo-sophia-producao-destruir-humanidade-12022021163547951?dimensions=771x420&&&&&&&&resize=771x420&crop=1500x817+0+57" alt="IA.consciente">
-            <header>
-                <time>17/09/2023 ás 17:45hrs</time>
-            </header>
-                <h3>Inteligencia artificial que disse estar consciente e planejando destruir seu criador<br> foi destruida pelo seu criador.</h3>
-                <p>"JUREMA disse que queria destruir seu criador, logo depois foi enviada por ele para o RECYCLE BIN"</p>
-                <a href="Leia a noticia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="https://i0.wp.com/jornal.usp.br/wp-content/uploads/2020/03/20200330_antivacina.jpg?resize=1130%2C420&ssl=1" width="750" alt="">
-            <header>
-                <time>17/09/2023 ás 18:00hrs</time>
-            </header>
-                <h3>Virus de computador pode infectar seres humanos.</h3>
-                <p>Estudo aponta possibilidade de infecção em humanos viciados em tecnologias, como redes sociais e programação.</p>
-                <a href="Leia a noticia completa">Ler mais</a>
-        </article>
+    <section id="Tecnologia">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://img.r7.com/images/robo-sophia-producao-destruir-humanidade-12022021163547951?dimensions=771x420&&&&&&&&resize=771x420&crop=1500x817+0+57" alt="IA.consciente">
+                    <header>
+                        <time>17/09/2023 ás 17:45hrs</time>
+                    </header>
+                        <h3>Inteligencia artificial que disse estar consciente e planejando destruir seu criador<br> foi destruida pelo seu criador!</h3>
+                        <p>"JUREMA disse que queria destruir seu criador, logo depois foi enviada por ele para o RECYCLE BIN"</p>
+                        <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://i0.wp.com/jornal.usp.br/wp-content/uploads/2020/03/20200330_antivacina.jpg?resize=1130%2C420&ssl=1" alt="infecção tecnológica" id="virusimg">
+                    <header>
+                        <time>17/09/2023 ás 18:00hrs</time>
+                    </header>
+                        <h3>Virus de computador pode infectar seres humanos.</h3>
+                        <p>Estudo aponta possibilidade de infecção em humanos viciados em tecnologias, como redes sociais e programação.</p>
+                        <a href="Leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 </body>
 </html>
